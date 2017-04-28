@@ -1,14 +1,5 @@
-# CodeBook
-## Steps of the code `run_analysis.R`
-* Creation of a folder where put the data.
-* Download the zip data onto this folder and unzip the folder.
-* Creation of the tables and merge the corresponding data.
-* Selection the mean and std features, to subset the measures.
-* Change the names of the columns to make more readable and the name of certain fields asked.
-* Create a big dataset, with all the required data.
-* For the last part of the script, I load plyr package and the `ddply` function.
 
-## Functions use in the `run_analysis.R` code:
+## Functions used in the `run_analysis.R` code:
 
 * `download.file()`: To download the files from the URL.
 * `read.table()`: To create tables from the downloaded data.
